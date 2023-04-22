@@ -23,8 +23,8 @@ class HomePage extends StatelessWidget {
                     Icons.account_circle,
                     size: 130,
                   ),
-                  SizedBox(
-                    height: 14,
+                  Spacer(
+                    flex: 1,
                   ),
                   Text(
                     '자스민',
@@ -32,8 +32,8 @@ class HomePage extends StatelessWidget {
                       fontSize: 26,
                     ),
                   ),
-                  SizedBox(
-                    height: 14,
+                  Spacer(
+                    flex: 1,
                   ),
                   Text(
                     'abc123@kmou.ac.kr',
@@ -41,8 +41,8 @@ class HomePage extends StatelessWidget {
                       fontSize: 18,
                     ),
                   ),
-                  SizedBox(
-                    height: 4,
+                  Spacer(
+                    flex: 1,
                   ),
                   Text(
                     '010-1234-5678',
